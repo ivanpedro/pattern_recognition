@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>3051584c-5ce2-4237-ae9f-a4323f33b539</ProjectGuid>
+    <ProjectGuid>87e840f6-0daf-4853-8f37-30a427e18c0a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pattern_recognition.py</StartupFile>
+    <StartupFile>tensorflow_tuto.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>pattern_recognition</Name>
-    <RootNamespace>pattern_recognition</RootNamespace>
-    <InterpreterId>Global|PythonCore|3.6-32</InterpreterId>
+    <Name>tensorflow_tuto</Name>
+    <RootNamespace>tensorflow_tuto</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="pattern_recognition.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.6-32" />
+    <Compile Include="tensorflow_tuto.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

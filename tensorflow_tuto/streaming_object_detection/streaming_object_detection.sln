@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "streaming_object_detection", "streaming_object_detection\streaming_object_detection.pyproj", "{15393394-4270-40A5-8F0D-D4E83B60E378}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15393394-4270-40A5-8F0D-D4E83B60E378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15393394-4270-40A5-8F0D-D4E83B60E378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC0BC7AB-E41A-404E-BEC9-602A54431C5F}
+	EndGlobalSection
+EndGlobal

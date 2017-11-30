@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>3051584c-5ce2-4237-ae9f-a4323f33b539</ProjectGuid>
+    <ProjectGuid>15393394-4270-40a5-8f0d-d4e83b60e378</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pattern_recognition.py</StartupFile>
+    <StartupFile>streaming_object_detection.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>pattern_recognition</Name>
-    <RootNamespace>pattern_recognition</RootNamespace>
+    <Name>streaming_object_detection</Name>
+    <RootNamespace>streaming_object_detection</RootNamespace>
     <InterpreterId>Global|PythonCore|3.6-32</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,9 +22,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="pattern_recognition.py" />
+    <Compile Include="streaming_object_detection.py" />
   </ItemGroup>
   <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+    <InterpreterReference Include="Global|PythonCore|3.6" />
     <InterpreterReference Include="Global|PythonCore|3.6-32" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

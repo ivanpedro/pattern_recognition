@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "image_recognition", "image_recognition\image_recognition.pyproj", "{00DB5BD2-2A60-4C60-9A1C-4370361121B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00DB5BD2-2A60-4C60-9A1C-4370361121B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DB5BD2-2A60-4C60-9A1C-4370361121B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C870E3D0-DF71-4938-B370-6DE3FF158F3C}
+	EndGlobalSection
+EndGlobal
